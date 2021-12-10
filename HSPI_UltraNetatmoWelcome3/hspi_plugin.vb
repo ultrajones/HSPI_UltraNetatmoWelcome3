@@ -21,8 +21,8 @@ Module hspi_plugin
   Public HSDevices As New SortedList
 
   Public NetatmoAPI As hspi_netatmo_api
-  Public gAPIClientId As String = String.Empty      ' "56033fa94bda1dc307b0090e"
-  Public gAPIClientSecret As String = String.Empty  ' "yqrtNZJSFe4TLyunOQBWWLSBZi2GGpUI5p3x9LDs"
+  Public gAPIClientId As String = String.Empty
+  Public gAPIClientSecret As String = String.Empty
   Public gAPIUsername As String = String.Empty
   Public gAPIPassword As String = String.Empty
   Public gAPIScope As String = "read_camera access_camera write_camera read_presence access_presence"
